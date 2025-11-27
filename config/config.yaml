@@ -9,7 +9,7 @@ crawler:
   default_proxy: "http://127.0.0.1:10086"
   
 report:
-  mode: "incremental"
+  mode: "current"
   rank_threshold: 5
   sort_by_position_first: false
   max_news_per_keyword: 0
