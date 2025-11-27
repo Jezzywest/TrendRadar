@@ -2963,7 +2963,7 @@ def split_content_into_batches(
         if format_type == "wework":
             stats_header = f"📊 **热点词汇统计**\n\n"
         elif format_type == "telegram":
-            stats_header = ""
+            stats_header = f"📊 热点词汇统计\n\n"
         elif format_type == "ntfy":
             stats_header = f"📊 **热点词汇统计**\n\n"
         elif format_type == "feishu":
@@ -3028,7 +3028,12 @@ def split_content_into_batches(
                 else:
                     word_header = f"📌 {sequence_display} **{word}** : {count} 条\n\n"
             elif format_type == "telegram":
-                    word_header = ""
+                if count >= 10:
+                    word_header = f"🔥 {sequence_display} {word} : {count} 条\n\n"
+                elif count >= 5:
+                    word_header = f"📈 {sequence_display} {word} : {count} 条\n\n"
+                else:
+                    word_header = f"📌 {sequence_display} {word} : {count} 条\n\n"
             elif format_type == "ntfy":
                 if count >= 10:
                     word_header = (
