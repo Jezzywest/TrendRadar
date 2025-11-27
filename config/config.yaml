@@ -7,14 +7,8 @@ crawler:
   enable_crawler: true
   use_proxy: false
   default_proxy: "http://127.0.0.1:10086"
-
-# 你选择了 incremental 模式
-# 🔸 incremental（增量监控模式）
-#   • 推送时机：有新增才推送
-#   • 显示内容：新出现的匹配频率词新闻
-#   • 适用场景：避免重复信息干扰
 report:
-  mode: "incremental"   # <--- 已修改：增量模式
+  mode: "current"
   rank_threshold: 5
   sort_by_position_first: false
   max_news_per_keyword: 0
