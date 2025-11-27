@@ -6,7 +6,6 @@
 格莱美
 Billboard
 公告牌
-百大
 DJ
 电子音乐
 电音
@@ -36,18 +35,6 @@ Drake
 林俊杰
 阵容
 巡演
-巡回
-开票
-抢票
-售罄
-压轴
-嘉宾
-助阵
-定档
-预告
-先导
-独家
-全场
 舞台
 音综
 乐评
@@ -63,7 +50,6 @@ The Chainsmokers
 Alesso
 Zedd
 Swedish House Mafia
-SHM
 Fred again
 Peggy Gou
 Illenium
@@ -72,9 +58,6 @@ Hardwell
 Armin van Buuren
 Daft Punk
 Boiler Room
-ADE
-IMS
-Defected
 Spinnin
 Monstercat
 Q-dance
@@ -88,7 +71,7 @@ Bass Music
 Jersey Club
 House Music
 打碟
-百大
+百大DJ
 夜店
 Rave
 Raver
@@ -115,13 +98,11 @@ Gai
 C-Block
 盛宇
 艾热
-法老
 杨和苏
 中国新说唱
 巅峰对决
 说唱新世代
 Diss
-Beef
 Cypher
 Freestyle
 Justin Bieber
@@ -170,7 +151,6 @@ TWICE
 EXO
 女团
 男团
-一位
 打歌
 MAMA
 Melon
